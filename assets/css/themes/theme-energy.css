@@ -4,17 +4,17 @@ The Okno - Ultimate Multipurpose HTML5 Template
 
 File:           CSS Base
 Version:        1.1
-Last change:    10/06/15 
+Last change:    10/06/15
 Author:         Suelo
 
 Table of Contents:
 
 	1. Document Setup
 	2. Basic
-	3. Header 
+	3. Header
 	4. Content  5. Footer
-	6. Elements  7. Widgets 
-	8. Animations 
+	6. Elements  7. Widgets
+	8. Animations
 
 -------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------- */
@@ -1141,7 +1141,10 @@ html[dir="rtl"] #header.fullwidth .megamenu .banner-last { margin-left: -60px; m
 #nav-bar { position: relative; max-height: 68px; line-height: 68px; font-family: "Montserrat", Helvetica, Arial, sans-serif; z-index: 6; background-color: #fff; -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1); }
 #nav-bar > * { transition: filter 0.2s ease-out; -moz-transition: filter 0.2s ease-out; -moz-transition: filter 0.2s ease-out; -webkit-transition: -webkit-filter 0.2s ease-out; }
 #nav-bar a { height: 68px; display: inline-block; }
-#nav-bar .logo { position: relative; top: -2px; max-height: 50%; }
+#nav-bar .logo {     position: relative;
+    top: -23px;
+    height: 112px;
+    /* max-height: 50%; */ }
 #nav-bar .module-group { height: 68px; }
 #nav-bar .module-group.right { float: right; }
 #nav-bar .module-group.left { float: left; }
@@ -2429,7 +2432,7 @@ html[dir="rtl"] .pagination > li:first-child, html[dir="rtl"] .pagination > li:l
 .nav-panel > li > a { font-family: "Montserrat", Helvetica, Arial, sans-serif; font-weight: 500; text-transform: uppercase; font-size: 14px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60); opacity: 0.6; }
 .nav-panel > li > a:hover, .nav-panel > li > a:focus { background: transparent; filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
 
-/* Typography 
+/* Typography
 ----------------------------------------------------------*/
 /* Fonts */
 .font-secondary { font-family: "Montserrat", Helvetica, Arial, sans-serif; }
