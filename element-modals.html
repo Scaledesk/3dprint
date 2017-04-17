@@ -28,21 +28,21 @@
 
 </head>
 
-<body class="header-absolute">
+<body class="modal-at-bottom">
 
 <!-- Loader -->
 <div id="page-loader"><svg class="loader-1 loader-primary" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg"><circle class="circle" fill="none" stroke-width="3" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div>
 <!-- Loader / End -->
 
 <!-- Header -->
-<header id="header" class="absolute fullwidth light">
+<header id="header" class="fullwidth light">
 	
 	<!-- Navigation Bar -->
 	<div id="nav-bar">
 
 		<!-- Logo -->
 		<a class="logo-wrapper" href="index.html">
-			<img class="logo logo-dark" src="assets/img/logo-dark.png" alt="Okno">		
+			<img class="logo logo-dark" src="assets/img/logo-dark.png" alt="Okno">
 		</a>
 
 		<nav class="module-group right">
@@ -365,6 +365,7 @@
 				<span class="notification">2</span>
 			</div>
 
+
 			<!-- Search -->
 			<div class="module search left">
 				<span class="trigger" data-toggle="search-bar"><i class="ti-search"></i></span>
@@ -394,304 +395,54 @@
 </header>
 <!-- Header / End -->
 
+<!-- Page Title -->
+<div id="page-title" class="page-title page-title-1 bg-secondary dark">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h1><i class="ti-layout-media-overlay-alt-2"></i>Modals</h1>
+			</div>
+			<div class="col-md-6">
+				<ol class="breadcrumb">
+					<li><a href="index.html">Home Page</a></li>
+					<li class="active">Modals</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Page Title / End -->
+
 <!-- Content -->
 <div id="content">
 
 	<!-- Section -->
-	<section class="fullheight dark">
-
-		<div class="bg-parallax" data-parallax="scroll" data-image-src="assets/img/photos/classic_bg01.jpg"></div>
-
-		<div class="v-center">
-			<div class="carousel" data-single-item="true" data-autoplay="4000" data-transition="fade" data-pagination="false">
-				<h1 class="text-center text-xl font-secondary">This is classic.</h1>
-				<h1 class="text-center text-xl font-secondary">This is Okno.</h1>
-			</div>
-		</div>
-
-		<div class="v-bottom pb-40">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4 col-md-push-4 col-sm-6 col-sm-push-3">
-						<span data-target="local-scroll"><a href="#about" class="btn btn-filled btn-primary btn-block">Explore me more<i class="i-after ti-arrow-right"></i></a></span>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-	</section>
-
-	<!-- Section -->
-	<section id="about">
-
+	<section>
 		<div class="container text-center">
 			<div class="row">
-				<div class="col-md-8 col-md-push-2">
-					<h1>It’s classic!</h1>
-					<p class="lead"> Aliquam feugiat nunc vel ante sagittis, in blandit nisl tempor. Cras nisl velit, pellentesque id cursus ut, vulputate non ex. Sed ullamcorper.</p>
-					<img src="assets/img/photos/classic_screen02.jpg" class="mt-50 mb-70 shadow" alt="">
-				</div>
-			</div>
-			<div class="row">
-				<!-- Feature -->
-				<div class="col-md-3 col-sm-6">
-					<div class="feature feature-1 mb-40">
-						<span class="icon"><i class="ti-files text-muted-2x"></i></span>
-						<h5 class="mb-5">100+ HTML Files</h5>
-						<p class="text-muted">Over 100 fully responsive HTML files.</p>
-					</div>
-				</div>
-				<!-- Feature -->
-				<div class="col-md-3 col-sm-6">
-					<div class="feature feature-1 mb-40">
-						<span class="icon"><i class="ti-desktop text-muted-2x"></i></span>
-						<h5 class="mb-5">One-Page &amp; Multipage Home Concepts</h5>
-						<p class="text-muted">Modren &amp; Neat home page concepts.</p>
-					</div>
-				</div>
-				<!-- Feature -->
-				<div class="col-md-3 col-sm-6">
-					<div class="feature feature-1 mb-40">
-						<span class="icon"><i class="ti-package text-muted-2x"></i></span>
-						<h5 class="mb-5">Huge package of components</h5>
-						<p class="text-muted">Tons of styled Bootstrap 3 Components.</p>
-					</div>
-				</div>
-				<!-- Feature -->
-				<div class="col-md-3 col-sm-6">
-					<div class="feature feature-1 mb-40">
-						<span class="icon"><i class="ti-bolt text-muted-2x"></i></span>
-						<h5 class="mb-5">Made with SASS</h5>
-						<p class="text-muted">Super fast &amp; easy to customize!</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<!-- Feature -->
-				<div class="col-md-3 col-sm-6">
-					<div class="feature feature-1 mb-40">
-						<span class="icon"><i class="ti-rocket text-muted-2x"></i></span>
-						<h5 class="mb-5">Workig Forms</h5>
-						<p class="text-muted">Working Contact Form &amp; Mailchimp support!</p>
-					</div>
-				</div>
-				<!-- Feature -->
-				<div class="col-md-3 col-sm-6">
-					<div class="feature feature-1 mb-40">
-						<span class="icon"><i class="ti-layers-alt text-muted-2x"></i></span>
-						<h5 class="mb-5">Multiple Header Styles</h5>
-						<p class="text-muted">Diffrent header styles perfect for you website.</p>
-					</div>
-				</div>
-				<!-- Feature -->
-				<div class="col-md-3 col-sm-6">
-					<div class="feature feature-1 mb-40">
-						<span class="icon"><i class="ti-paint-bucket text-muted-2x"></i></span>
-						<h5 class="mb-5">Unlimited Colors Option</h5>
-						<p class="text-muted">Easy to set your own colors.</p>
-					</div>
-				</div>
-				<!-- Feature -->
-				<div class="col-md-3 col-sm-6">
-					<div class="feature feature-1 mb-40">
-						<span class="icon"><i class="ti-search text-muted-2x"></i></span>
-						<h5 class="mb-5">+ Much More</h5>
-						<p class="text-muted">Don't waste your time and start exploring!</p>
-					</div>
-				</div>
-			</div>
-			<div class="row pt-30">
-				<div class="col-md-4 col-md-push-4 col-sm-6 col-sm-push-3">
-					<a href="#" class="btn btn-filled btn-primary btn-block">Purchase It<i class="i-after ti-shopping-cart"></i></a>
+				<div class="col-lg-8 col-lg-push-2">
+					<h3>Types</h3>
+					<p class="lead">Set size of the modal by <code>.modal-sm</code>, <code>.modal-md</code>, <code>.modal-lg</code> to <code>.modal-dialog</code>. Set <code>data-backdrop="false"</code> to the modal to turn off the backdrop.</p>
+
+					<!-- Button - Modal / Basic -->
+					<button type="button" class="btn btn-filled btn-primary" data-toggle="modal" data-target="#modalBasic"><i class="i-before ti-layout-cta-center"></i>Basic Modal</button>
+
+					<!-- Button - Modal / Image Top -->
+					<button type="button" class="btn btn-filled btn-primary" data-toggle="modal" data-target="#modalImageTop"><i class="i-before ti-layout-media-center "></i>Image Top</button>
+
+					<!-- Button - Modal / Image BG -->
+					<button type="button" class="btn btn-filled btn-primary" data-toggle="modal" data-target="#modalImageBg"><i class="i-before ti-gallery"></i>Background Image</button>
+
+					<!-- Button - Modal / Bottom -->
+					<button type="button" class="btn btn-filled btn-primary" data-toggle="modal" data-target="#modalBottom"><i class="i-before ti-layout-media-overlay"></i>Bottom Modal</button>
+
+					<p class="lead mt-30">
+						To show modal after page is loaded use <code>data-timeout</code> attribute. Example: <code>data-timeout="1000"</code> (shows after 1000ms).
+					</p>
+
 				</div>
 			</div>
 		</div>
-
-	</section>
-
-	<!-- Section -->
-	<section class="bg-grey">
-
-		<div class="container">
-
-			<div class="row row-double right mb-60">
-				<div class="col-md-6 image">
-					<div class="bg-image"><img src="assets/img/photos/classic_photo02.jpg" alt=""></div>
-				</div>
-				<div class="col-md-6 content bg-white">
-					<h2>Take a seat and build perfect website!</h2>
-					<p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-					<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-					<span data-target="local-scroll"><a href="#footer" class="btn btn-filled btn-primary"><i class="i-before ti-email"></i>Sign Up!</a></span>
-				</div>
-			</div>
-
-			<h3 class="text-center mb-40">Look at those numbers!</h3>
-
-			<div class="row text-center">
-				
-				<div class="col-sm-4">
-					<div class="counter counter-1">
-						<div class="number text-primary">11</div>
-						<h5>Home page concepts</h5>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="counter counter-1">
-						<div class="number text-primary">+100</div>
-						<h5>HTML Files</h5>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="counter counter-1">
-						<div class="number text-primary">+1000</div>
-						<h5>Happy customers</h5>
-					</div>
-				</div>
-
-			</div>
-
-			<div class="row pt-20">
-				<div class="col-md-4 col-md-push-4 col-sm-6 col-sm-push-3">
-					<a href="#" class="btn btn-filled btn-white btn-block">Purchase it!<i class="i-after ti-shopping-cart"></i></a>
-				</div>
-			</div>
-			
-		</div>
-
-	</section>
-
-	<!-- Section -->
-	<section class="dark">
-
-		<div class="bg-parallax" data-parallax="scroll" data-image-src="assets/img/photos/classic_bg02.jpg"></div>
-
-		<div class="container text-center">
-			<div class="row pb-140">
-				<div class="col-lg-6 col-lg-push-3">
-					<h2>Neat design &amp; exclusive package of components</h2>
-				</div>
-			</div>
-			<div class="row pt-140">
-				<div class="col-lg-3 col-lg-push-3 col-sm-6">
-					<a href="#" class="btn btn-filled btn-primary btn-block">Purchase it!<i class="i-after ti-shopping-cart"></i></a>
-				</div>
-				<div class="col-lg-3 col-lg-push-3 col-sm-6">
-					<a href="http://themeforest.net/user/suelo/portfolio?ref=suelo" target="_blank" class="btn btn-filled btn-link btn-block">Check other items <i class="i-after ti-arrow-right"></i></a>
-				</div>
-			</div>
-		</div>
-		
-	</section>
-
-	<!-- Section -->
-	<section class="section-image-edge">
-
-		<div class="col-md-6 col-md-push-6 image animated" data-animation="slideInRight">
-			<img class="shadow mb-40" src="assets/img/photos/classic_screen01.jpg" alt="">
-		</div>
-		<div class="container">
-			<div class="col-md-5 content">
-				<img src="assets/img/avatars/avatar01.jpg" class="img-circle mb-40" alt="">
-				<h2>„I really like it!”</h2>
-				<p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-				<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-				<strong>Piotr Osmola</strong> - the inventor
-				<div><img src="assets/img/sign.svg" class="img-rounded mt-30 mb-30" alt=""></div>
-				<a href="#" class="btn btn-filled btn-primary">Learn more	<i class="i-after ti-arrow-right"></i></a>
-			</div>
-		</div>
-
-	</section>
-
-	<!-- Section -->
-	<section class="section-double left bg-grey">
-
-		<div class="col-md-6 image">
-			<div class="bg-image zooming"><img src="assets/img/photos/classic_photo01.jpg" alt=""></div>
-		</div>
-		<div class="col-md-6 content text-center">
-			<h2 class="mb-40">What’s new?</h2>
-			<div class="carousel mb-40" data-items="3" data-autoplay="5000" data-pagination="true" data-navigation="true">
-				<!-- Feature -->
-				<div class="feature feature-1 p-20">
-					<span class="icon icon-circle icon-white icon-sm"><i class="ti-files text-primary"></i></span>
-					<h5 class="mb-5">100+ HTML Files</h5>
-					<p class="text-muted">Over 100 fully responsive HTML files.</p>
-				</div>
-				<!-- Feature -->
-				<div class="feature feature-1 p-20">
-					<span class="icon icon-circle icon-white icon-sm"><i class="ti-desktop text-primary"></i></span>
-					<h5 class="mb-5">20+ Home Concepts</h5>
-					<p class="text-muted">Modren &amp; Neat home page concepts.</p>
-				</div>
-				<!-- Feature -->
-				<div class="feature feature-1 p-20">
-					<span class="icon icon-circle icon-white icon-sm"><i class="ti-package text-primary"></i></span>
-					<h5 class="mb-5">Huge package of components</h5>
-					<p class="text-muted">Tons of styled Bootstrap 3 Components.</p>
-				</div>
-				<!-- Feature -->
-				<div class="feature feature-1 p-20">
-					<span class="icon icon-circle icon-white icon-sm"><i class="ti-bolt text-primary"></i></span>
-					<h5 class="mb-5">Made with SASS</h5>
-					<p class="text-muted">Super fast &amp; easy to customize!</p>
-				</div>
-				<!-- Feature -->
-				<div class="feature feature-1 p-20">
-					<span class="icon icon-circle icon-white icon-sm"><i class="ti-rocket text-primary"></i></span>
-					<h5 class="mb-5">Workig Forms</h5>
-					<p class="text-muted">Working Contact Form &amp; Mailchimp support!</p>
-				</div>
-				<!-- Feature -->
-				<div class="feature feature-1 p-20">
-					<span class="icon icon-circle icon-white icon-sm"><i class="ti-layers-alt text-primary"></i></span>
-					<h5 class="mb-5">Multiple Header Styles</h5>
-					<p class="text-muted">Diffrent header styles perfect for you website.</p>
-				</div>
-				<!-- Feature -->
-				<div class="feature feature-1 p-20">
-					<span class="icon icon-circle icon-white icon-sm"><i class="ti-paint-bucket text-primary"></i></span>
-					<h5 class="mb-5">Unlimited Colors Option</h5>
-					<p class="text-muted">Easy to set your own colors.</p>
-				</div>
-			</div>
-			<span data-target="local-scroll"><a href="#footer" class="btn btn-filled btn-primary"><i class="i-before ti-email"></i>Sign Up!</a></span>
-		</div>
-
-	</section>
-
-	<!-- Section -->
-	<section class="dark bg-primary"> 
-
-		<div class="container">
-			<h6 class="text-uppercase text-muted mb-60">What people say?</h6>
-			<div class="row">
-				<div class="col-lg-5 col-md-6">
-					<div class="testimonial testimonial-1">
-						<div class="quote">
-							Everything was made <strong>perfectly</strong>. It was my the best descision to pick this author. Client for a life!
-						</div>
-						<div class="author">
-							<span class="name text-uppercase">Mark Johnson</span>
-							<span class="caption text-muted">Buyer of Okno template</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-5 col-lg-offset-1 col-md-6">
-					<div class="testimonial testimonial-1">
-						<div class="quote">
-							Really <strong>cool stuff</strong>! I am sure I will use it again in my projects!
-						</div>
-						<div class="author">
-							<span class="name text-uppercase">Mark Johnson</span>
-							<span class="caption text-muted">Buyer of Okno template</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
 	</section>
 
 </div>
@@ -801,6 +552,80 @@
 </footer>
 <!-- Footer / End -->
 
+<!-- Modal / Basic -->
+<div class="modal fade" id="modalBasic" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="ti-close"></i></button>
+				<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+			</div>
+			<div class="modal-body">
+				...
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal / Image Top -->
+<div class="modal fade" id="modalImageTop" role="dialog">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content">
+      		<img src="assets/img/photos/classic_photo04.jpg" alt="">
+      		<div class="modal-body p-40">
+      			<h3 class="font-secondary mb-0">Modren &amp; Easy to customize template</h3>
+      			<span class="text-muted">Based on Bootstrap 3 Framework</span>
+      			<p class="lead mt-20">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+      			<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+      			<ul class="social-bar">
+      				<li>
+      					<a href="#"><span class="icon icon-circle icon-xs icon-facebook"><i class="fa fa-facebook"></i></span><span class="text-muted">Follow on</span> Faceboook</a>
+      				</li>
+      				<li>
+      					<a href="#"><span class="icon icon-circle icon-xs icon-twitter"><i class="fa fa-twitter"></i></span><span class="text-muted">Follow on</span> Twitter</a>
+      				</li>
+      				<li>
+      					<a href="#"><span class="icon icon-circle icon-xs icon-google-plus"><i class="fa fa-google-plus"></i></span><span class="text-muted">Follow on</span> Google +</a>
+      				</li>
+      			</ul>
+      		</div>
+        </div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="ti-close"></i></button>
+    </div>
+</div>
+
+<!-- Modal / Image BG -->
+<div class="modal fade" id="modalImageBg" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content dark bg-dark">
+        	<div class="bg-image"><img src="assets/img/photos/classic_bg04.jpg" alt=""></div>
+      		<div class="modal-body p-40">
+      			<span class="icon icon-xl icon-primary"><span class="ti-receipt"></span></span>
+      			<h1 class="text-xl font-secondary mb-0">-50% Off</h1>
+      			<h3 class="font-secondary mb-50">Want a coupon for free?</h3>
+      			<a href="#" class="btn btn-primary btn-lg">Yes, Sure!<i class="i-after ti-check"></i></a>
+      			<a href="#" class="btn btn-link btn-lg" data-dismiss="modal">No, thanks <i class="i-after ti-close"></i></a>
+      		</div>
+        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="ti-close"></i></button>
+        </div>
+    </div>
+</div>
+
+<!-- Modal / Bottom -->
+<div class="modal modal-bottom fade" id="modalBottom" role="dialog" data-backdrop="false" data-timeout="1000">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-body text-center"><span class="icon icon-xs icon-primary"><i class="ti-receipt"></i></span>This website uses cookies to ensure you get the best experience on our website. <a href="#" class="btn btn-primary btn-filled btn-xs">More info</a></div>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="ti-close"></i></button>
+		</div>
+	</div>
+</div>
+
+
 <!-- JS Libraries -->
 <script src="assets/js/jquery-1.12.3.min.js"></script>
 
@@ -809,6 +634,9 @@
 
 <!-- JS Core -->
 <script src="assets/js/core.js"></script>
+
+<!-- JS Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 
 </body>
 

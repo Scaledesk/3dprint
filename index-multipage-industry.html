@@ -28,7 +28,7 @@
 
 </head>
 
-<body class="header-absolute">
+<body class="one-page header-absolute">
 
 <!-- Loader -->
 <div id="page-loader"><svg class="loader-1 loader-primary" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg"><circle class="circle" fill="none" stroke-width="3" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div>
@@ -36,13 +36,24 @@
 
 <!-- Header -->
 <header id="header" class="absolute fullwidth light">
+
+	<!-- Top Bar -->
+	<div id="top-bar">
+		<div class="module left">Welcome on our webiste!</div>
+		<div class="module right">
+			<ul class="list-inline">
+				<li><i class="i-before ti-email text-primary"></i>hello@example.com</li>
+				<li><i class="i-before ti-mobile text-primary"></i>+48 22 212-32-21</li>
+			</ul>
+		</div>
+	</div>
 	
 	<!-- Navigation Bar -->
 	<div id="nav-bar">
 
 		<!-- Logo -->
 		<a class="logo-wrapper" href="index.html">
-			<img class="logo logo-dark" src="assets/img/logo-dark.png" alt="Okno">		
+			<img class="logo logo-dark" src="assets/img/logo-dark.png" alt="Okno">
 		</a>
 
 		<nav class="module-group right">
@@ -338,33 +349,6 @@
 				</ul>
 			</div>
 
-			<!-- Shopping Cart -->
-			<div class="module shopping-cart has-popup left">
-				<span class="trigger"><i class="ti-shopping-cart"></i></span>
-				<div class="popup cart">
-					<ul class="cart-items">
-						<li>
-							<a href="#" class="image"><img src="assets/img/shop/product01.jpg" alt=""></a>
-							<div class="content">
-								<a href="#">The Camera</a>
-								<span class="price">$39.98</span>
-							</div>
-						</li>
-						<li>
-							<a href="#" class="image"><img src="assets/img/shop/product02.jpg" alt=""></a>
-							<div class="content">
-								<a href="#">The Glasses</a>
-								<span class="price">$39.98</span>
-							</div>
-						</li>
-					</ul>
-					<div class="cart-bottom">
-						<a href="shop-cart.html" class="btn btn-filled btn-primary btn-sm btn-block">Go to Cart <i class="i-after ti-arrow-right"></i></a>
-					</div>
-				</div>
-				<span class="notification">2</span>
-			</div>
-
 			<!-- Search -->
 			<div class="module search left">
 				<span class="trigger" data-toggle="search-bar"><i class="ti-search"></i></span>
@@ -397,308 +381,86 @@
 <!-- Content -->
 <div id="content">
 
-	<!-- Section -->
-	<section class="fullheight dark">
+	<!-- Section / Home -->
+	<section id="home" class="h-lg">
 
-		<div class="bg-parallax" data-parallax="scroll" data-image-src="assets/img/photos/classic_bg01.jpg"></div>
+		<div class="bg-parallax" data-parallax="scroll" data-image-src="assets/img/photos/industry_bg03.jpg"></div>
 
-		<div class="v-center">
-			<div class="carousel" data-single-item="true" data-autoplay="4000" data-transition="fade" data-pagination="false">
-				<h1 class="text-center text-xl font-secondary">This is classic.</h1>
-				<h1 class="text-center text-xl font-secondary">This is Okno.</h1>
-			</div>
-		</div>
-
-		<div class="v-bottom pb-40">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4 col-md-push-4 col-sm-6 col-sm-push-3">
-						<span data-target="local-scroll"><a href="#about" class="btn btn-filled btn-primary btn-block">Explore me more<i class="i-after ti-arrow-right"></i></a></span>
-					</div>
-				</div>
-			</div>
+		<div class="container v-center text-center text-uppercase">
+			<h1 class="mb-5 text-bg rounded bg-primary font-secondary animated" data-animation="fadeInDown">Vitamin &amp; Supplements</h1><br>
+			<h4 class="text-bg bg-white rounded text-primary font-secondary animated" data-animation="fadeInUp">Producer &amp; Supplier</h4>
 		</div>
 		
 	</section>
 
 	<!-- Section -->
-	<section id="about">
-
-		<div class="container text-center">
-			<div class="row">
-				<div class="col-md-8 col-md-push-2">
-					<h1>It’s classic!</h1>
-					<p class="lead"> Aliquam feugiat nunc vel ante sagittis, in blandit nisl tempor. Cras nisl velit, pellentesque id cursus ut, vulputate non ex. Sed ullamcorper.</p>
-					<img src="assets/img/photos/classic_screen02.jpg" class="mt-50 mb-70 shadow" alt="">
-				</div>
-			</div>
-			<div class="row">
-				<!-- Feature -->
-				<div class="col-md-3 col-sm-6">
-					<div class="feature feature-1 mb-40">
-						<span class="icon"><i class="ti-files text-muted-2x"></i></span>
-						<h5 class="mb-5">100+ HTML Files</h5>
-						<p class="text-muted">Over 100 fully responsive HTML files.</p>
-					</div>
-				</div>
-				<!-- Feature -->
-				<div class="col-md-3 col-sm-6">
-					<div class="feature feature-1 mb-40">
-						<span class="icon"><i class="ti-desktop text-muted-2x"></i></span>
-						<h5 class="mb-5">One-Page &amp; Multipage Home Concepts</h5>
-						<p class="text-muted">Modren &amp; Neat home page concepts.</p>
-					</div>
-				</div>
-				<!-- Feature -->
-				<div class="col-md-3 col-sm-6">
-					<div class="feature feature-1 mb-40">
-						<span class="icon"><i class="ti-package text-muted-2x"></i></span>
-						<h5 class="mb-5">Huge package of components</h5>
-						<p class="text-muted">Tons of styled Bootstrap 3 Components.</p>
-					</div>
-				</div>
-				<!-- Feature -->
-				<div class="col-md-3 col-sm-6">
-					<div class="feature feature-1 mb-40">
-						<span class="icon"><i class="ti-bolt text-muted-2x"></i></span>
-						<h5 class="mb-5">Made with SASS</h5>
-						<p class="text-muted">Super fast &amp; easy to customize!</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<!-- Feature -->
-				<div class="col-md-3 col-sm-6">
-					<div class="feature feature-1 mb-40">
-						<span class="icon"><i class="ti-rocket text-muted-2x"></i></span>
-						<h5 class="mb-5">Workig Forms</h5>
-						<p class="text-muted">Working Contact Form &amp; Mailchimp support!</p>
-					</div>
-				</div>
-				<!-- Feature -->
-				<div class="col-md-3 col-sm-6">
-					<div class="feature feature-1 mb-40">
-						<span class="icon"><i class="ti-layers-alt text-muted-2x"></i></span>
-						<h5 class="mb-5">Multiple Header Styles</h5>
-						<p class="text-muted">Diffrent header styles perfect for you website.</p>
-					</div>
-				</div>
-				<!-- Feature -->
-				<div class="col-md-3 col-sm-6">
-					<div class="feature feature-1 mb-40">
-						<span class="icon"><i class="ti-paint-bucket text-muted-2x"></i></span>
-						<h5 class="mb-5">Unlimited Colors Option</h5>
-						<p class="text-muted">Easy to set your own colors.</p>
-					</div>
-				</div>
-				<!-- Feature -->
-				<div class="col-md-3 col-sm-6">
-					<div class="feature feature-1 mb-40">
-						<span class="icon"><i class="ti-search text-muted-2x"></i></span>
-						<h5 class="mb-5">+ Much More</h5>
-						<p class="text-muted">Don't waste your time and start exploring!</p>
-					</div>
-				</div>
-			</div>
-			<div class="row pt-30">
-				<div class="col-md-4 col-md-push-4 col-sm-6 col-sm-push-3">
-					<a href="#" class="btn btn-filled btn-primary btn-block">Purchase It<i class="i-after ti-shopping-cart"></i></a>
-				</div>
-			</div>
-		</div>
-
-	</section>
-
-	<!-- Section -->
-	<section class="bg-grey">
-
+	<section class="protrude pull-up-60 pt-0">
+		
 		<div class="container">
-
-			<div class="row row-double right mb-60">
-				<div class="col-md-6 image">
-					<div class="bg-image"><img src="assets/img/photos/classic_photo02.jpg" alt=""></div>
+			<div class="row mb-40">
+				<div class="col-md-4">
+					<!-- Service -->
+					<div class="feature feature-1 text-center animated" data-animation="fadeInUp">
+						<span class="icon icon-circle icon-xl icon-white"><i class="ti-pulse"></i></span>
+						<h4>Vitamin &amp; Supplements Production</h4>
+						<p>Donec quis tortor in nisl hendrerit tempor in ultrices leo. Pellentesque eu metus nunc.</p>
+						<a href="#" class="btn btn-primary btn-sm">Read more</a>
+					</div>
 				</div>
-				<div class="col-md-6 content bg-white">
-					<h2>Take a seat and build perfect website!</h2>
-					<p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-					<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-					<span data-target="local-scroll"><a href="#footer" class="btn btn-filled btn-primary"><i class="i-before ti-email"></i>Sign Up!</a></span>
+				<div class="col-md-4">
+					<!-- Service -->
+					<div class="feature feature-1 text-center animated" data-animation="fadeInUp" data-animation-delay="300">
+						<span class="icon icon-circle icon-xl icon-white"><i class="ti-truck"></i></span>
+						<h4>Vitamin &amp; Supplements Supplier</h4>
+						<p>Tortor in nisl hendrerit tempor in ultrices leo. Pellentesque eu metus nunc.</p>
+						<a href="#" class="btn btn-primary btn-sm">Read more</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<!-- Service -->
+					<div class="feature feature-1 text-center animated" data-animation="fadeInUp" data-animation-delay="600">
+						<span class="icon icon-circle icon-xl icon-white"><i class="ti-rocket"></i></span>
+						<h4>Labolatory Services</h4>
+						<p>Quis tortor in nisl hendrerit tempor in ultrices leo. Pellentesque eu.</p>
+						<a href="#" class="btn btn-primary btn-sm">Read more</a>
+					</div>
 				</div>
 			</div>
 
-			<h3 class="text-center mb-40">Look at those numbers!</h3>
+			<hr class="sep-line sep-2 mb-60">
 
 			<div class="row text-center">
-				
-				<div class="col-sm-4">
-					<div class="counter counter-1">
-						<div class="number text-primary">11</div>
-						<h5>Home page concepts</h5>
+				<div class="col-lg-6 col-lg-push-3 col-md-8 col-md-push-2">
+					<h2>We are the best private labolatory in Warsaw</h2>
+					<p class="lead mb-40">Take a sit and watch how we work...</p>
+					<div class="video-box placeholder-image text-center">
+						<div class="image">
+							<img src="assets/img/photos/industry_photo07.jpg" alt="">
+						</div>
+						<a href="https://www.youtube.com/embed/uVju5--RqtY?rel=0&autoplay=1" class="btn-play"></a>
 					</div>
 				</div>
-				<div class="col-sm-4">
-					<div class="counter counter-1">
-						<div class="number text-primary">+100</div>
-						<h5>HTML Files</h5>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="counter counter-1">
-						<div class="number text-primary">+1000</div>
-						<h5>Happy customers</h5>
-					</div>
-				</div>
-
-			</div>
-
-			<div class="row pt-20">
-				<div class="col-md-4 col-md-push-4 col-sm-6 col-sm-push-3">
-					<a href="#" class="btn btn-filled btn-white btn-block">Purchase it!<i class="i-after ti-shopping-cart"></i></a>
-				</div>
-			</div>
-			
-		</div>
-
-	</section>
-
-	<!-- Section -->
-	<section class="dark">
-
-		<div class="bg-parallax" data-parallax="scroll" data-image-src="assets/img/photos/classic_bg02.jpg"></div>
-
-		<div class="container text-center">
-			<div class="row pb-140">
-				<div class="col-lg-6 col-lg-push-3">
-					<h2>Neat design &amp; exclusive package of components</h2>
-				</div>
-			</div>
-			<div class="row pt-140">
-				<div class="col-lg-3 col-lg-push-3 col-sm-6">
-					<a href="#" class="btn btn-filled btn-primary btn-block">Purchase it!<i class="i-after ti-shopping-cart"></i></a>
-				</div>
-				<div class="col-lg-3 col-lg-push-3 col-sm-6">
-					<a href="http://themeforest.net/user/suelo/portfolio?ref=suelo" target="_blank" class="btn btn-filled btn-link btn-block">Check other items <i class="i-after ti-arrow-right"></i></a>
-				</div>
-			</div>
-		</div>
-		
-	</section>
-
-	<!-- Section -->
-	<section class="section-image-edge">
-
-		<div class="col-md-6 col-md-push-6 image animated" data-animation="slideInRight">
-			<img class="shadow mb-40" src="assets/img/photos/classic_screen01.jpg" alt="">
-		</div>
-		<div class="container">
-			<div class="col-md-5 content">
-				<img src="assets/img/avatars/avatar01.jpg" class="img-circle mb-40" alt="">
-				<h2>„I really like it!”</h2>
-				<p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-				<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-				<strong>Piotr Osmola</strong> - the inventor
-				<div><img src="assets/img/sign.svg" class="img-rounded mt-30 mb-30" alt=""></div>
-				<a href="#" class="btn btn-filled btn-primary">Learn more	<i class="i-after ti-arrow-right"></i></a>
 			</div>
 		</div>
 
 	</section>
 
 	<!-- Section -->
-	<section class="section-double left bg-grey">
+	<section class="h-sm dark">
 
-		<div class="col-md-6 image">
-			<div class="bg-image zooming"><img src="assets/img/photos/classic_photo01.jpg" alt=""></div>
-		</div>
-		<div class="col-md-6 content text-center">
-			<h2 class="mb-40">What’s new?</h2>
-			<div class="carousel mb-40" data-items="3" data-autoplay="5000" data-pagination="true" data-navigation="true">
-				<!-- Feature -->
-				<div class="feature feature-1 p-20">
-					<span class="icon icon-circle icon-white icon-sm"><i class="ti-files text-primary"></i></span>
-					<h5 class="mb-5">100+ HTML Files</h5>
-					<p class="text-muted">Over 100 fully responsive HTML files.</p>
-				</div>
-				<!-- Feature -->
-				<div class="feature feature-1 p-20">
-					<span class="icon icon-circle icon-white icon-sm"><i class="ti-desktop text-primary"></i></span>
-					<h5 class="mb-5">20+ Home Concepts</h5>
-					<p class="text-muted">Modren &amp; Neat home page concepts.</p>
-				</div>
-				<!-- Feature -->
-				<div class="feature feature-1 p-20">
-					<span class="icon icon-circle icon-white icon-sm"><i class="ti-package text-primary"></i></span>
-					<h5 class="mb-5">Huge package of components</h5>
-					<p class="text-muted">Tons of styled Bootstrap 3 Components.</p>
-				</div>
-				<!-- Feature -->
-				<div class="feature feature-1 p-20">
-					<span class="icon icon-circle icon-white icon-sm"><i class="ti-bolt text-primary"></i></span>
-					<h5 class="mb-5">Made with SASS</h5>
-					<p class="text-muted">Super fast &amp; easy to customize!</p>
-				</div>
-				<!-- Feature -->
-				<div class="feature feature-1 p-20">
-					<span class="icon icon-circle icon-white icon-sm"><i class="ti-rocket text-primary"></i></span>
-					<h5 class="mb-5">Workig Forms</h5>
-					<p class="text-muted">Working Contact Form &amp; Mailchimp support!</p>
-				</div>
-				<!-- Feature -->
-				<div class="feature feature-1 p-20">
-					<span class="icon icon-circle icon-white icon-sm"><i class="ti-layers-alt text-primary"></i></span>
-					<h5 class="mb-5">Multiple Header Styles</h5>
-					<p class="text-muted">Diffrent header styles perfect for you website.</p>
-				</div>
-				<!-- Feature -->
-				<div class="feature feature-1 p-20">
-					<span class="icon icon-circle icon-white icon-sm"><i class="ti-paint-bucket text-primary"></i></span>
-					<h5 class="mb-5">Unlimited Colors Option</h5>
-					<p class="text-muted">Easy to set your own colors.</p>
-				</div>
-			</div>
-			<span data-target="local-scroll"><a href="#footer" class="btn btn-filled btn-primary"><i class="i-before ti-email"></i>Sign Up!</a></span>
+		<div class="bg-parallax" data-parallax="scroll" data-image-src="assets/img/photos/industry_bg04.jpg"></div>
+
+		<div class="container v-center text-center">
+			<h3 class="text-bg rounded bg-primary font-secondary text-uppercase animated" data-animation="fadeInUp">Need a quote? <a href="#" class="link-underline">Contact Us!</a></h3>
 		</div>
 
-	</section>
-
-	<!-- Section -->
-	<section class="dark bg-primary"> 
-
-		<div class="container">
-			<h6 class="text-uppercase text-muted mb-60">What people say?</h6>
-			<div class="row">
-				<div class="col-lg-5 col-md-6">
-					<div class="testimonial testimonial-1">
-						<div class="quote">
-							Everything was made <strong>perfectly</strong>. It was my the best descision to pick this author. Client for a life!
-						</div>
-						<div class="author">
-							<span class="name text-uppercase">Mark Johnson</span>
-							<span class="caption text-muted">Buyer of Okno template</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-5 col-lg-offset-1 col-md-6">
-					<div class="testimonial testimonial-1">
-						<div class="quote">
-							Really <strong>cool stuff</strong>! I am sure I will use it again in my projects!
-						</div>
-						<div class="author">
-							<span class="name text-uppercase">Mark Johnson</span>
-							<span class="caption text-muted">Buyer of Okno template</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
 	</section>
 
 </div>
 <!-- Content / End -->
 
 <!-- Footer -->
-<footer id="footer" class="dark bg-secondary">
+<footer id="footer" class="bg-secondary dark">
     
 	<div class="container">
 			<div class="row">
@@ -708,37 +470,22 @@
 					<div class="widget widget-logo">
 						<img class="logo logo-dark" src="assets/img/logo-light.png" alt="Okno">
 					</div>
-					<div class="widget widget-follow">
-						<h6 class="text-uppercase">Follow Us</h6>
-						<a href="#" class="icon icon-circle icon-facebook icon-xs"><i class="fa fa-facebook"></i></a>
-						<a href="#" class="icon icon-circle icon-twitter icon-xs"><i class="fa fa-twitter"></i></a>
-						<a href="#" class="icon icon-circle icon-google-plus icon-xs"><i class="fa fa-google-plus"></i></a>
-					</div>
 				</div>
 
 				<div class="col-md-3">
-					<!-- Widget - Recent posts -->
-					<div class="widget widget-recent-posts">
-						<h6 class="text-uppercase text-muted">Recent Posts</h6>
-						<ul class="list-posts">
-							<li>
-								<a href="#">Crazy developer ideas on 2016</a>
-								<span class="date">February 14, 2015</span>
-							</li>
-							<li>
-								<a href="#">Our road trip to London!</a>
-								<span class="date">February 14, 2015</span>
-							</li>
-							<li>
-								<a href="#">New iOS design concept</a>
-								<span class="date">February 14, 2015</span>
-							</li>
-						</ul>
-					</div>
-					<!-- Widget - Instagram -->
-					<div class="widget widget-instagram">
-						<h6 class="text-uppercase text-muted">Instagram Feed</h6>
-						<div id="instagram-feed" class="instagram-grid clearfix" data-limit="6"></div>
+					<!-- Widget - Contact -->
+					<div class="widget widget-contact">
+						<h6 class="text-uppercase text-muted">Contact Us</h6>
+						<img src="assets/img/photos/location-photo01.jpg" alt="" class="img-rounded mb-20">
+						<address>
+							<strong>Address:</strong><br>
+							A795 Folsom Ave, Suite 600<br>
+							San Francisco, CA 94107<br><br>
+							<strong>Phone:</strong><br>
+							+48 221 909 99<br><br>
+							<strong>E-mail:</strong><br>
+							your.name@example.com<br>
+						</address>
 					</div>
 				</div>
 
@@ -763,21 +510,12 @@
 							<input type="email"  name="MERGE0" size="25" value="" class="form-control input-2 input-sm" placeholder="Your e-mail..." required>
 							<button type="submit" class="btn btn-filled btn-sm btn-submit btn-block"><span>Sign Up</span></button>
 						</form>
-						
 					</div>
-					<!-- Widget - Contact -->
-					<div class="widget widget-contact">
-						<h6 class="text-uppercase text-muted">Contact Us</h6>
-						<img src="assets/img/photos/location-photo01.jpg" alt="" class="img-rounded mb-20">
-						<address>
-							<strong>Address:</strong><br>
-							A795 Folsom Ave, Suite 600<br>
-							San Francisco, CA 94107<br><br>
-							<strong>Phone:</strong><br>
-							+48 221 909 99<br><br>
-							<strong>E-mail:</strong><br>
-							your.name@example.com<br>
-						</address>
+					<div class="widget widget-follow">
+						<h6 class="text-uppercase">Follow Us</h6>
+						<a href="#" class="icon icon-circle icon-facebook icon-xs"><i class="fa fa-facebook"></i></a>
+						<a href="#" class="icon icon-circle icon-twitter icon-xs"><i class="fa fa-twitter"></i></a>
+						<a href="#" class="icon icon-circle icon-google-plus icon-xs"><i class="fa fa-google-plus"></i></a>
 					</div>
 				</div>
 
@@ -800,6 +538,7 @@
 
 </footer>
 <!-- Footer / End -->
+
 
 <!-- JS Libraries -->
 <script src="assets/js/jquery-1.12.3.min.js"></script>
