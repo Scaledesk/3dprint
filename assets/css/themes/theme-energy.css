@@ -2676,3 +2676,24 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 @keyframes blinking { 0% { opacity: 1; }
   50% { opacity: 0; }
   100% { opacity: 1; } }
+
+
+
+/*css for workshop  */
+.section-double {
+
+    height: 30vw;
+
+}
+
+.bar_tag .bar_content {
+    width: 80%;
+    height: auto;
+    left: 10%;
+    border: none;
+    padding: 0;
+    margin: 2% 0 2% 0;
+    position: relative;
+    z-index: 0;
+    border: none;
+}
