@@ -2697,3 +2697,6 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     z-index: 0;
     border: none;
 }
+
+.f-w{
+    color:#fff!important;}
