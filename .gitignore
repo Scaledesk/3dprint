@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/linux,adobe,django,python,windows,webstorm,phpstorm,sublimetext
+# Created by https://www.gitignore.io/api/linux,adobe,django,python,macos,windows,webstorm,phpstorm,sublimetext
 
 ### Adobe ###
 # Adobe Source Files
@@ -286,6 +286,8 @@ $RECYCLE.BIN/
 *.DS_Store
 .AppleDouble
 .LSOverride
+.DS_Store
+assets/img/photos/.DS_Store
 
 # Icon must end with two \r
 Icon
