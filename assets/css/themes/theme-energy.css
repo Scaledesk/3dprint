@@ -1142,14 +1142,17 @@ html[dir="rtl"] #header.fullwidth .megamenu .banner-last { margin-left: -60px; m
 #nav-bar > * { transition: filter 0.2s ease-out; -moz-transition: filter 0.2s ease-out; -moz-transition: filter 0.2s ease-out; -webkit-transition: -webkit-filter 0.2s ease-out; }
 #nav-bar a { height: 68px; display: inline-block; }
 #nav-bar .logo {     position: relative;
-    top: -23px;
-    height: 112px;
-    /* max-height: 50%; */ }
+    top: -2px;
+/*    height: 112px;*/
+     max-height: 100%;  }
 #nav-bar .module-group { height: 68px; }
 #nav-bar .module-group.right { float: right; }
 #nav-bar .module-group.left { float: left; }
 #nav-bar .module { padding: 0 15px; height: 68px; }
-@media only screen and (max-width: 767px) { #nav-bar .module { padding: 0 9px; } }
+@media only screen and (max-width: 767px) { 
+    #nav-bar .module { padding: 0 9px; } 
+    #nav-bar .logo { max-height: 60%;}
+}
 #nav-bar .module:not(.menu) { position: relative; }
 #nav-bar .module .trigger { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; -webkit-transition: all 0.2s ease-out; transition: all 0.2s ease-out; cursor: pointer; display: inline-block; }
 #nav-bar .module .trigger i { font-size: 130%; }
