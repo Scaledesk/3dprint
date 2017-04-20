@@ -2703,3 +2703,12 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 
 .f-w{
     color:#fff!important;}
+
+.bg-dark-opacity{
+    background: #000;
+    opacity: 0.6;
+}
+
+#icon-area{
+    padding: 35px 0;
+}
