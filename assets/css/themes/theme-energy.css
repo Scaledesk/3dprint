@@ -2704,6 +2704,10 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 .f-w{
     color:#fff!important;}
 
+.f-40{
+    font-size: 40px;
+}
+
 .bg-dark-opacity{
     background: #000;
     opacity: 0.6;
