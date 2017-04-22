@@ -2897,4 +2897,12 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     }
 
 }
+
+
+
+
 /*===== // Resonsive Vertical Timeline =====*/
+
+.zooming{
+    height:400px;
+}
