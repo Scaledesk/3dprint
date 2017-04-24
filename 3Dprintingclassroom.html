@@ -230,7 +230,7 @@
 					<a href="https://www.youtube.com/embed/uVju5&#45;&#45;RqtY?rel=0&amp;autoplay=1" class="btn-play"></a>
 				</div>-->
 				<div class="col-md-6 image">
-					<img src="assets/img/infographicclassroom.png" alt="infographic classroom image" style="height:550px;">
+					<img src="assets/img/infographicclassroom.png" alt="infographic classroom image" style="height:640px;">
 				</div>
 				<div class="col-md-6 content bg-white">
 					<h2>3D printing in classroom!</h2>
@@ -288,7 +288,7 @@
 					<input type="hidden" name="hosted_button_id" value="SY23G4THLFDX6">
 					<input type="image" src="https://www.paypalobjects.com/pl_PL/PL/i/btn/btn_donate_SM.gif" name="submit" alt="PayPal – Płać wygodnie i bezpiecznie">
 					<img alt="" src="https://www.paypalobjects.com/pl_PL/i/scr/pixel.gif" width="1" height="1">
-					<button type="submit" class="btn btn-white btn-filled btn-block">Request More Info!</button>
+					<button type="submit" class="btn btn-white btn-filled btn-block" data-toggle="modal" data-target="#modalBasic">Request More Info!</button>
 				</form>
 			</div>
 		</div>
@@ -347,6 +347,53 @@
 
 </div>
 <!-- Content / End -->
+
+
+
+<!-- Modal / Basic -->
+<div class="modal fade" id="modalBasic" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header pb-5">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="ti-close"></i></button>
+				<h4 class="modal-title" id="myModalLabel"><h3 class="mb-40">Send Us a message!</h3></h4>
+			</div>
+
+
+			<!--form-->
+
+
+			<div class="modal-footer">
+				<div class="col-md-12 content">
+					<!--<h3 class="mb-40">Send Us a message!</h3>-->
+					<form class="contact-form validate-form" id="contact-form" method="POST" data-message-error="Opps... Something went wrong - please try again later" data-message-success="Thank you form your message! We will answer within 24 hours." novalidate="novalidate">
+						<div class="row">
+							<div class="form-group col-sm-6">
+								<input name="name" id="name" type="text" class="form-control" placeholder="Name" required="" aria-required="true">
+							</div>
+							<div class="form-group col-sm-6">
+								<input name="email" id="email" type="text" class="form-control" placeholder="E-mail address" required="" aria-required="true">
+							</div>
+						</div>
+						<div class="form-group">
+							<textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Message" required="" aria-required="true"></textarea>
+						</div>
+						<div class="row">
+							<div class="col-md-4 col-sm-6">
+								<button type="submit" class="btn btn-filled btn-submit btn-block"><span>Send it <i class="i-after ti-arrow-right"></i></span></button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+			</div>
+
+
+
+		</div>
+	</div>
+</div>
+
 
 <!-- Footer -->
 <footer id="footer" class="dark bg-secondary pt-90 pb-60">

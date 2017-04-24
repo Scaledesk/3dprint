@@ -2472,7 +2472,7 @@ h6, h6 { font-size: 13px; font-family: "Montserrat", Helvetica, Arial, sans-seri
   h2 { font-size: 34px; } }
 @media only screen and (max-width: 991px) { h1.text-xl { font-size: 60px; } }
 /* Paragraph */
-p { font-size: 13px; font-weight: 400; margin-bottom: 25px; }
+p { font-size: 15px; font-weight: 400; margin-bottom: 25px; }
 
 p.lead { font-size: 16px; margin-bottom: 25px; }
 p.lead.text-lg { font-size: 24px; margin-bottom: 35px; }
@@ -2910,3 +2910,5 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 #donate1{
     background: #f1670b url('../3d_printingclassroom.jpg');
 }
+
+
