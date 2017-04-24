@@ -2906,3 +2906,7 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 .zooming{
     height:400px;
 }
+
+#donate1{
+    background: #f1670b url('../3d_printingclassroom.jpg');
+}
