@@ -2685,7 +2685,7 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 /*css for workshop  */
 .section-double {
 
-    height: 30vw;
+    height: 40vw;
 
 }
 
@@ -2922,4 +2922,15 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     background-position-y: -426px;
 }
 
+.bg-red{
+    background-color: #ec0928;
+}
 
+.bg-green{
+    background-color: #37b7af;
+}
+
+
+.bg-yellow{
+    background-color: #f99d1b;
+}
