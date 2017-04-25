@@ -1498,7 +1498,7 @@ html[dir="rtl"] .carousel { direction: ltr; }
 .feature.feature-2 .icon.icon-circle.icon-xl + .feature-content { padding-left: 190px; }
 .feature.feature-2.feature-sm { min-height: 0; }
 .feature.feature-3 > img { width: 100%; }
-.feature.feature-3 .feature-content { padding: 30px;     height: 272px;}
+.feature.feature-3 .feature-content { padding: 30px;     height: 320px;}
 .feature.feature-4 { padding: 30px; }
 .feature.feature-5 { position: relative; height: 450px; padding: 40px; overflow: hidden; text-align: center; }
 .feature.feature-5 .content { position: relative; top: 50%; -moz-transform: translate3d(0, -50%, 0); -webkit-transform: translate3d(0, -50%, 0); transform: translate3d(0, -50%, 0); -moz-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
