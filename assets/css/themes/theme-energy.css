@@ -2907,8 +2907,78 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     }
 
 }
+.desktop-wrapper{
+		background: url('../../img/topic_imac_0.png');
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	.banner-index{
+		background: url('../../img/banner-home.jpg');
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+	}
+	.desktop-wrapper {
+    position: relative;
+    height: 389px;
+    width: 419px;
+    margin: 0px auto;
+    text-align: center;
+}
+	.desktop-image {
+    position: absolute;
+    bottom: 91px;
+    right: 0px;
+    width: 385px;
+    margin: 0px auto;
+    left: 0px;
+}
+.desktop-image img {
+    height: 205px;
+    width: 385px;
+}
+@media only screen and (max-width: 768px){
+	.desktop-wrapper {
+    height: 250px;
+    width: 313px;
+}
+.desktop-image {
+    bottom: 41px;
+    width: 286px;
+    }
+    .desktop-image img {
+    height: 128px;
+}
+}
+@media only screen and (max-width:425px){
+	.desktop-wrapper {
+    height: 151px;
+    width: 143px;
+    margin: 42px auto;
+}
+.desktop-image {
+    bottom: 8px;
+    width: 130px;
+    }
+    .desktop-image img {
+    height: 77px;
+    width: 293px;
+}
+}
 
-
+@media only screen and (max-width:330px){
+	.desktop-wrapper {
+        height: 121px;
+    width: 109px;
+    margin: 20px auto;
+}
+.desktop-image {
+    bottom: 0px;
+    width: 100px;
+    }
+    .desktop-image img {
+    height: 66px;
+}
+}
 
 
 /*===== // Resonsive Vertical Timeline =====*/
