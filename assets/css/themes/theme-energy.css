@@ -20,7 +20,7 @@ Table of Contents:
 /* ----------------------------------------------------------------------------- */
 /* --- 1. SETUP
 /* ----------------------------------------------------------------------------- */
-body { position: relative; color: #434343; font-size: 13px; font-family: "Open Sans", Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.5; overflow-x: hidden; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { position: relative; color: #434343; font-size: 15px; font-family: "Open Sans", Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.5; overflow-x: hidden; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 a { color: inherit; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 
@@ -1596,7 +1596,7 @@ ul.social-bar > li a .icon { margin-right: 8px; }
 .workflow-steps .workflow-progress:after { position: absolute; top: 0; left: 0; height: 100%; width: 0; background-color: #f1670b; content: ' '; -moz-transition: width 4s linear; -o-transition: width 4s linear; -webkit-transition: width 4s linear; transition: width 4s linear; }
 .workflow-steps .workflow-progress.animated { visibility: visible; }
 .workflow-steps .workflow-progress.animated.visible:after { width: 100%; }
-.workflow-steps .step .icon { margin-bottom: 50px; }
+.workflow-steps .step .icon { margin-bottom: 10px; }
 .workflow-steps .step.animated { visibility: visible; }
 .workflow-steps .step.animated i, .workflow-steps .step.animated h5, .workflow-steps .step.animated p { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30); opacity: 0.3; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; -webkit-transition: all 0.2s ease-out; transition: all 0.2s ease-out; }
 .workflow-steps .step.animated.visible i, .workflow-steps .step.animated.visible h5, .workflow-steps .step.animated.visible p { filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
@@ -2472,7 +2472,7 @@ h6, h6 { font-size: 13px; font-family: "Montserrat", Helvetica, Arial, sans-seri
   h2 { font-size: 34px; } }
 @media only screen and (max-width: 991px) { h1.text-xl { font-size: 60px; } }
 /* Paragraph */
-p { font-size: 15px; font-weight: 400; margin-bottom: 25px; }
+p { font-size: 16px; font-weight: 400; margin-bottom: 25px; }
 
 p.lead { font-size: 16px; margin-bottom: 25px; }
 p.lead.text-lg { font-size: 24px; margin-bottom: 35px; }
@@ -3003,4 +3003,22 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 
 .bg-yellow{
     background-color: #f99d1b;
+}
+
+
+/*Sanchit*/
+
+.h-service-box-heading{
+    color: #f17421;
+    background: #f9f9f9;
+    padding: 5px;
+}
+
+
+.bg-lp-image{
+    background:  linear-gradient(rgba(0, 0, 0, 0.41),rgba(0, 0, 0, 0.35)),url('../../../assets/img/lesson-plan/lesson-plan-bg.jpg') !important;
+}
+
+.text-shadow-black{
+    text-shadow: 1px 1px 1px #000;
 }
