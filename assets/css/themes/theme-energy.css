@@ -3019,6 +3019,33 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     background:  linear-gradient(rgba(0, 0, 0, 0.41),rgba(0, 0, 0, 0.35)),url('../../../assets/img/lesson-plan/lesson-plan-bg.jpg') !important;
 }
 
+.bg-lab-image{
+    background:  linear-gradient(rgba(0, 0, 0, 0.41),rgba(0, 0, 0, 0.35)),url('../../../assets/img/lab-setup/lab.jpg') !important;
+}
+
+
 .text-shadow-black{
     text-shadow: 1px 1px 1px #000;
+}
+
+.spread-items.labs li{
+    border-bottom: 2px double transparent;
+    border-top: 2px solid transparent;
+    transition: all 0.5s;
+    
+}
+.spread-items.labs li:hover{
+    border-bottom: 2px double #f0a97a;
+    border-top: 2px solid #f0a97a;
+    
+}
+
+.price-table {
+     background: #fff5e0;
+    outline: 1px solid #a57514;
+    transition: all 0.35s;}
+
+.price-table:hover {
+    background: #ffd37b;
+    outline: 1px solid #a57514;
 }
