@@ -3049,3 +3049,22 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     background: #ffd37b;
     outline: 1px solid #a57514;
 }
+
+.price-table .head .price {
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+    
+.nav-primary li:not(.has-megamenu) ul{
+    font-size: 13px;
+    width: 275px;
+}
+    
+    .nav-primary{
+        font-size: 13px;
+        font-weight: 400;
+    }
+    
+    
+}
