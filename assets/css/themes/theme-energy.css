@@ -1484,7 +1484,8 @@ html[dir="rtl"] .carousel { direction: ltr; }
 
 /* Features
 ----------------------------------------------------------*/
-.feature { margin-bottom: 30px; display: block; }
+.feature { margin-bottom: 30px; display: block; 
+    border: 1px solid transparent; transition: border 0.25s; }
 .feature.feature-1 .icon { margin-bottom: 16px; }
 .feature.feature-2 { min-height: 130px; }
 .feature.feature-2 .feature-content { padding-left: 75px; padding-top: 10px; }
@@ -2990,6 +2991,16 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 #donate1{
     background: #f1670b url('../../../assets/img/banners/bg-banner.jpg');
     background-position-y: -426px;
+}
+
+.feature.feature-3 .feature-content{
+    height: 180px;
+
+}
+
+
+.feature:hover {
+    outline:1px solid #ffe4bb;
 }
 
 .bg-red{
