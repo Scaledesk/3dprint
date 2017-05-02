@@ -2442,10 +2442,14 @@ html[dir="rtl"] .pagination > li:first-child, html[dir="rtl"] .pagination > li:l
 .font-secondary { font-family: "Montserrat", Helvetica, Arial, sans-serif; }
 
 /* Headings */
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { margin-top: 0; display: block; font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { margin-top: 0; display: block; 
+/*    font-family: "Open Sans", Helvetica, Arial, sans-serif; */
+font-family: 'Rajdhani', Helvetica, Arial, sans-serif;
+    
+}
 h1.font-secondary, .h1.font-secondary, h2.font-secondary, .h2.font-secondary, h3.font-secondary, .h3.font-secondary, h4.font-secondary, .h4.font-secondary, h5.font-secondary, .h5.font-secondary, h6.font-secondary, .h6.font-secondary { font-weight: 400; }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4 { font-weight: 100; }
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 { font-weight: 400; }
 
 h1, .h1 { font-size: 48px; margin-bottom: 22px; }
 @media only screen and (max-width: 767px) { h1, .h1 { font-size: 38px; } }
