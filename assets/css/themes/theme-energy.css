@@ -3043,7 +3043,7 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     background-position-y: -426px;
 }
 
-.feature.feature-3 .feature-content{
+.p-home .feature.feature-3 .feature-content{
     height: 180px;
 
 }
@@ -3076,7 +3076,7 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     
 }
 
-.feature:hover {
+.protrude .feature:hover {
     outline:1px solid #fdba54;
     transform: scale(1.03);
 }
