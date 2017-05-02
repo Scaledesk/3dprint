@@ -65,7 +65,7 @@
 
 		<!-- Logo -->
 		<a class="logo-wrapper" href="index.html">
-			<img class="logo logo-dark" src="assets/img/logo-dark.png" alt="Okno">
+			<img class="logo logo-dark" src="assets/img/logo-dark.png" alt="myleap-logo">
 		</a>
 
 		<nav class="module-group right">
@@ -158,12 +158,44 @@
 		
 	</div> -->
 	<div class="banner-index">
-<div class="desktop-wrapper">
-					<div class="desktop-image">
-						<img height="300px" src="assets/gifs/big.gif" class="mb-40">
-					</div>
-	</div>
+
+					
+    <img height="300px" src="assets/gifs/big.gif" class="pos-gif">
+					
+	
 </div>
+
+<div class="container-fluid p-0">
+    <div class="col-md-12">
+        <div class="row text-center home-strip">
+            <div class="col-md-3 col-xs-3 p-20 border-right-light">VISUALIZE</div>
+            <div class="col-md-3 col-xs-3 p-20 border-right-light">DESIGN</div>
+            <div class="col-md-3 col-xs-3 p-20 border-right-light">MAKE</div>
+            <div class="col-md-3 col-xs-3 p-20 border-right-light">HOLD</div>
+        </div>
+    </div>
+</div>
+
+<!--
+<style type="text/css"> 
+.container-banner { position:relative; }
+.imgA1 { position:absolute; top: 0px; left: 0px; z-index: 1; } 
+.imgB1 { position:absolute; top: 70px; left: 100px; z-index: 3; } 
+</style>
+-->
+
+
+<!--
+<div class="container-banner">
+
+					
+						<img class="imgA1" height="300px" src="assets/img/banner-home2.jpg">
+						<img class="imgB1" height="300px" src="assets/gifs/big.gif" >
+					
+	
+</div>
+-->
+
 	<section class="bg-grey">
 
 		<div class="container">
@@ -290,8 +322,8 @@
 	<!--section-->
 
 	<section class="text-center">
-		<h3 class="mb-10">Services</h3>
-		<p class="lead text-muted">We deliver Wide Range of Services in the field of 3D Printing</p>
+		<h3 class="mb-10" id="services" >Services</h3>
+		<p class="lead">We deliver Wide Range of Services in the field of 3D Printing</p>
 	</section>
 
 	<section class="bg-grey pt-0 pb-10 protrude">
@@ -301,13 +333,14 @@
 					<!-- Service -->
 					<a href="3D-lesson-plans.html">
 					<div class="feature feature-3">
-						<img src="assets/img/service1_g3.png" alt="Project Based Learning Modules">
+						<img src="assets/img/home/lesson-plan-home.jpg" alt="Project Based Learning Modules">
 						<div class="feature-content text-center bg-white">
 							<!--<h6 class="mb-5 text-muted text-uppercase">PROJECT</h6>-->
 							<h5 class="h-service-box-heading">Lesson Plans on 3D Printing</h5>
 							<p class="mb-0">We have designed <b>Step-by-Step instructions</b> of creating the 3D object using google sketchup. 
 							</p>
 						</div>
+							<p class="hover-btn">Click to Explore</p>
 					</div>
 					</a>
 				</div>
@@ -315,13 +348,14 @@
 					<!-- Service -->
 					<a href="3D-lab-setup.html">
 					<div class="feature feature-3">
-						<img src="assets/img/service2_g1.jpg" alt="3D Lab For School" >
+						<img src="assets/img/home/lab-setup-home.jpg" alt="3D Lab Setup" >
 						<div class="feature-content text-center bg-white">
 						<!--	<h6 class="mb-5 text-muted text-uppercase">LAB</h6>-->
-							<h5 class="h-service-box-heading">3D Lab For School</h5>
+							<h5 class="h-service-box-heading">3D Lab Setup </h5>
 							<p class="mb-5">3D Lab, consists of a <b> 3D Printer</b>, design software,<b>Filaments rolls &amp; expert made Lesson plans. </b> </p>
 						
 						</div>
+							<p class="hover-btn">Click to Explore</p>
 					</div>
 						</a>
 				</div>
@@ -329,14 +363,16 @@
 					<!-- Service -->
 					<a href="courses_and_workshops.html">
 					<div class="feature feature-3">
-						<img src="assets/img/service1_g5.jpg" alt="Courses and Workshops">
+						<img src="assets/img/home/workshop-training-home.jpg" alt="Courses and Workshops">
 						<div class="feature-content text-center bg-white">
 							<!--<h6 class="mb-5 text-muted text-uppercase">OTHER</h6>-->
-							<h5 class="h-service-box-heading">Courses &amp; Workshops</h5>
+							<h5 class="h-service-box-heading">Workshops &amp; Training</h5>
 							<p class="mb-5">For anyone who want to learn &amp; enhance their CV and professional <b>skills.</b>
 							</p>
 							
 						</div>
+						
+						<p class="hover-btn">Click to Explore</p>
 					</div>
 						</a>
 				</div>
@@ -430,16 +466,25 @@
 	<div class="container">
 		<div class="row v-center-items">
 			<div class="col-md-2 mb-30">
-				<img class="logo logo-dark" src="assets/img/logo-dark.png" height="112px" alt="Okno">
+				<a href="index.html"><img class="logo logo-dark" src="assets/img/logo-dark.png" height="112px" alt="myleap-logo-footer">
+				
+				</a>
 			</div>
 			<div class="col-md-8 mb-30">
 				<ul class="nav nav-inline nav-sm">
 
-					<li><a href="#" target="_blank">Home</a></li>
+<!--					<li><a href="#" target="_blank">Home</a></li>-->
 					<li><a href="3Dprinting.html" target="_blank">3D Printing</a></li>
-					<li><a href="services.html" target="_blank">Services</a></li>
+					
+					
+					<li><a href="#services" >Services</a></li>
 
+					
+					<li><a href="3Dprintingclassroom.html" target="_blank">3D Printing in Classroom</a></li>
+					
 					<li><a href="work.html" target="_blank">Free Course</a></li>
+					
+					<li><a href="workshop.html" target="_blank">Workshops</a></li>
 					<li><a href="contact.html" target="_blank">Contact Us</a></li>
 				</ul>
 			</div>

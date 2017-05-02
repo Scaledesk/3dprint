@@ -1226,7 +1226,7 @@ html[dir="rtl"] #nav-bar .module.shopping-cart .cart .cart-items > li .image { f
   .nav-primary .megamenu .banner { position: relative; text-transform: none; }
   .nav-primary > li { float: left; }
   .nav-primary > li > a { padding: 0 13px; }
-  .nav-primary > li > a:hover, .nav-primary > li > a:focus { background-color: transparent; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
+  .nav-primary > li > a:hover, .nav-primary > li > a:focus { background-color: transparent; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; border-bottom: 1px solid #f1670b;  }
   .nav-primary > li:first-child > a { padding-left: 0; }
   .nav-primary > li:last-child > a { padding-right: 0; }
   .nav-primary > li:nth-last-of-type(-n+2) > ul { left: auto; right: 0; }
@@ -1485,7 +1485,7 @@ html[dir="rtl"] .carousel { direction: ltr; }
 /* Features
 ----------------------------------------------------------*/
 .feature { margin-bottom: 30px; display: block; 
-    border: 1px solid transparent; transition: border 0.25s; }
+    border: 1px solid transparent; transition: border 0.25s,transform 0.25s; }
 .feature.feature-1 .icon { margin-bottom: 16px; }
 .feature.feature-2 { min-height: 130px; }
 .feature.feature-2 .feature-content { padding-left: 75px; padding-top: 10px; }
@@ -2909,23 +2909,52 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 
 }
 .desktop-wrapper{
-		background: url('../../img/topic_imac_0.png');
+/*		background: url('../../img/topic_imac_0.png');*/
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
+   
 	}
-	.banner-index{
-		background: url('../../img/banner-home.jpg');
+
+.pos-gif{
+    position: absolute;
+    height: 180px;
+    width: 287px;
+    left: 266px;
+    top: 159px;
+}
+
+
+.banner-index{
+		background: url('../../img/home/home-banner-vairation.jpg');
 		background-size:100% 100%;
 		background-repeat: no-repeat;
+     position: relative;
+    height: 419px;
 	}
-	.desktop-wrapper {
+
+.home-strip{
+/*    background: #f7941e;*/
+    background: #f79a28;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+
+    
+}
+
+.border-right-light{
+    border-right: 1px solid #f9f9f9;
+}
+
+.desktop-wrapper {
     position: relative;
     height: 389px;
     width: 419px;
     margin: 0px auto;
     text-align: center;
 }
-	.desktop-image {
+
+.desktop-image {
     position: absolute;
     bottom: 91px;
     right: 0px;
@@ -2938,6 +2967,27 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     width: 385px;
 }
 @media only screen and (max-width: 768px){
+    
+    .home-strip{
+        font-size: 13px;
+    }
+    
+    .banner-index{
+		background: url('../../img/home/mobile-banner-home.jpg');
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+     position: relative;
+    height: 419px;
+	}
+    
+    .pos-gif{
+       
+    height: 175px;
+    width: 232px;
+    left: 100px;
+    top: 159px;
+    }
+    
 	.desktop-wrapper {
     height: 250px;
     width: 313px;
@@ -2999,8 +3049,44 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 }
 
 
+
+
+.hover-btn{
+    position: absolute;
+    display: none;
+/*
+    padding: 15px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 3px;
+    top: 40%;
+    color: #fff;
+    left: 33%;
+*/
+    
+    padding-top: 30%;
+    padding-left: 30%;
+    height: 60%;
+    width: 100%;
+    background: rgba(51, 51, 51, 0.46);
+    border-radius: 3px;
+    top: 0px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #333;
+    font-size: 23px;
+    
+}
+
 .feature:hover {
-    outline:1px solid #ffe4bb;
+    outline:1px solid #fdba54;
+    transform: scale(1.03);
+}
+
+.feature:hover .feature.feature-3 .feature-content{
+    background: #fafafa;
+}
+
+.feature:hover .hover-btn{
+    display: block;
 }
 
 .bg-red{
@@ -3071,6 +3157,10 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 
 body.header-absolute #content section:first-child{
     padding-top: 0px;
+}
+
+#nav-bar{
+    color: #eb860d;
 }
 
 @media only screen and (min-width: 992px) {
