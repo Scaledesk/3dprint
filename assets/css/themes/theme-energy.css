@@ -3117,7 +3117,7 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 
 
 .bg-lp-image{
-    background:  linear-gradient(rgba(0, 0, 0, 0.41),rgba(0, 0, 0, 0.35)),url('../../../assets/img/lesson-plan/lesson-plan-bg.jpg') !important;
+    background:  linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.11)),url('../../../assets/img/lesson-plan/lesson-plan-bg.jpg') !important;
 }
 
 .bg-lab-image{
