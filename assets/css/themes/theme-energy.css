@@ -3124,6 +3124,14 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     background:  linear-gradient(rgba(0, 0, 0, 0.41),rgba(0, 0, 0, 0.35)),url('../../../assets/img/lab-setup/lab.jpg') !important;
 }
 
+.pos-gif-lp{
+    display: block !important;
+    width: 45%;
+    height: 31%;
+    margin-top: 127px;
+    margin-left: 165px;
+}
+
 
 .text-shadow-black{
     text-shadow: 1px 1px 1px #000;
@@ -3167,7 +3175,30 @@ body.header-absolute #content section:first-child{
     color: #eb860d;
 }
 
+@media only screen and (min-width: 1368px) and ( max-width: 1440px){
+    .pos-gif-lp{
+    
+        width: 40%;
+    margin-left: 206px;
+}
+}
+
+@media only screen and (min-width: 320px) and ( max-width: 640px){
+    .pos-gif-lp{
+        width: 57%;
+    height: 31%;
+    margin-top: 92px;
+    margin-left: 71px
+    
+      
+}
+}
+
+
+
 @media only screen and (min-width: 992px) {
+    
+    
     
 .nav-primary li:not(.has-megamenu) ul{
     font-size: 13px;
