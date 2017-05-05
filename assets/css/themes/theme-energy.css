@@ -2709,18 +2709,25 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 .f-w{
     color:#fff!important;}
 
+/*
 .f-40{
     font-size: 40px;
 }
+*/
 
 .bg-dark-opacity{
-    background: #000;
-    opacity: 0.6;
+    font-size: 23px;
+    
+    width: 80%;
+    background: #f7941e;
+
 }
 
 #icon-area{
     padding: 35px 0;
 }
+
+
 
 
 /*===== Vertical Timeline =====*/
@@ -3119,6 +3126,13 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 .bg-lp-image{
     background:  linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.11)),url('../../../assets/img/lesson-plan/lesson-plan-bg.jpg') no-repeat !important;
     background-size: cover !IMPORTANT;
+}
+
+.bg-work-image{
+    
+    background:  linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.11)),url('../../../assets/img/shop/workshop-banner.jpg') no-repeat !important;
+    background-size: cover !IMPORTANT;
+    
 }
 
 .bg-lab-image{
