@@ -2977,6 +2977,42 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     height: 205px;
     width: 385px;
 }
+
+@media only screen and (max-width:1920px){
+	.pos-gif {
+    position: absolute;
+    height: 175px;
+    width: 429px;
+    left: 402px;
+    top: 159px;
+}
+
+
+}
+
+
+@media only screen and (max-width:2550px){
+	.pos-gif {
+    height: 175px;
+    width: 278px;
+    left: 260px;
+    top: 159px;
+}
+
+
+}
+
+@media only screen and (min-width:2550px) and (max-width:4450px){
+	.pos-gif {
+    height: 180px;
+    width: 578px;
+    left: 529px;
+    top: 159px;
+}
+
+
+}
+
 @media only screen and (max-width: 768px){
     
     .home-strip{
@@ -2993,9 +3029,9 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     
     .pos-gif{
        
-    height: 175px;
-    width: 232px;
-    left: 100px;
+   height: 175px;
+    width: 200px;
+    left: 89px;
     top: 159px;
     }
     
@@ -3011,6 +3047,70 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     height: 128px;
 }
 }
+
+/*
+@media only screen and (min-width: 354px ) and (max-width: 640px){
+
+.pos-gif{
+    height: 175px;
+    width: 220px;
+    left: 89px;
+    top: 159px;
+
+}
+} 
+*/
+
+@media only screen and (width: 1440px ) and (height: 900px){
+
+.pos-gif{
+    height: 175px;
+    width: 320px;
+    left: 301px;
+    top: 159px;
+
+}
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      height: 175px;
+    width: 180px;
+    left: 77px;
+
+}
+
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-min-device-pixel-ratio: 2) 
+{ 
+      height: 175px;
+    width: 212px;
+    left: 91px;
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+      height: 175px;
+    width: 235px;
+    left: 100px;
+
+}
+
+
 @media only screen and (max-width:425px){
 	.desktop-wrapper {
     height: 151px;
@@ -3041,6 +3141,10 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     height: 66px;
 }
 }
+
+
+
+
 
 
 /*===== // Resonsive Vertical Timeline =====*/
@@ -3200,8 +3304,15 @@ body.header-absolute #content section:first-child{
         width: 40%;
     margin-left: 206px;
 }
+    
+    
+    .pos-gif-lp
+    { width: 43%;
+    height: 31%;
+    margin-top: 130px;
+    margin-left: 183px;
 }
-
+}
 @media only screen and (min-width: 320px) and ( max-width: 767px){
     
     .lab-set-left{
