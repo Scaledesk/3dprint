@@ -2936,7 +2936,8 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 
 
 .banner-index{
-		background: url('../../img/home/home-banner-vairation.jpg');
+/*		background: url('../../img/home/home-banner-vairation.jpg');*/
+		background: url('../../img/home/home-banner.gif');
 		background-size:100% 100%;
 		background-repeat: no-repeat;
      position: relative;
@@ -3020,7 +3021,8 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     }
     
     .banner-index{
-		background: url('../../img/home/mobile-banner-home.jpg');
+/*		background: url('../../img/home/mobile-banner-home.jpg');*/
+		background: url('../../img/home/mobile-banner-home.gif');
 		background-size:100% 100%;
 		background-repeat: no-repeat;
      position: relative;
