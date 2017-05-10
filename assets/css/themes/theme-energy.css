@@ -3257,6 +3257,10 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     margin-left: 165px;
 }
 
+.bg-light-grey{
+    background: #eaeaea;
+}
+
 
 .text-shadow-black{
     text-shadow: 1px 1px 1px #000;
