@@ -701,7 +701,7 @@ var Okno = {
                         $btn.addClass('loading');
                         $.ajax({
                             type: 'POST',
-                            url:  'assets/php/contact-form.php',
+                            url:  'PHPMailer/MailFunction.php',
                             data: $form.serialize(),
                             error       : function(err) { setTimeout(function(){ $btn.addClass('error'); }, 1200); },
                             success     : function(data) {
