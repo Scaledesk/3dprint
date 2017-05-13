@@ -3261,6 +3261,24 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     background: #eaeaea;
 }
 
+.card{
+    border-radius: 0px;
+    background: #f9f9f9;
+    border: 1px solid #eaeaea;
+    box-shadow: 1px 1px 1px #dadada;
+    font-size: 18px;
+    padding: 30px 20px;
+    font-weight: 500;
+}
+
+.card:hover , .card:focus{
+    color: #f7941e;
+}
+
+.card .fa-file-pdf-o{
+        font-size: 30px;
+    color: #ff0000;
+}
 
 .text-shadow-black{
     text-shadow: 1px 1px 1px #000;
