@@ -26,7 +26,7 @@ $emailadmin="nkscoder@gmail.com";
 $emailsubadmin="sanchit@scaledesk.com";
 // $namefrom=$_POST['pagefrom'];
 //$subject = $subject;
-$Usersubject="Thank You for contacting Scaledesk";
+$Usersubject="Thank You for contacting MyLeap.";
 $messageUsers=file_get_contents('template.html');
 
 $message ='<html>
@@ -94,7 +94,7 @@ $mail->Password = 'qazplmq1w2e3r4';                           // SMTP password
 //$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;// TCP port to connect to
 $mail->IsHTML(true);
-$mail->setFrom('contact@scaledesk.com', '3D Print');
+$mail->setFrom('contact@scaledesk.com', 'Myleap.in');
 //$mail->addAddress('ellen@example.com');               // Name is optional
 $mail->addReplyTo('contact@scaledesk.com', 'noreply');
 // TCP port to connect to
@@ -116,7 +116,7 @@ $mail1->Password = 'qazplmq1w2e3r4';                           // SMTP password
 //$mail1->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail1->Port = 587;// TCP port to connect to
 $mail1->IsHTML(true);
-$mail1->setFrom('contact@scaledesk.com', '3D Print');
+$mail1->setFrom('contact@scaledesk.com', 'MyLeap.in');
 //$mail->setFrom('contact@scaledesk.com', 'Scaledesk');
 $mail->addAddress($email, $name);
 //$mail1->setFrom('contact@scaledesk.com', 'Scaledesk');
