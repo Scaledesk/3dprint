@@ -1669,7 +1669,7 @@ pre { tab-size: 4; }
 /* Page Title
 ----------------------------------------------------------*/
 .page-title { position: relative; font-family: "Montserrat", Helvetica, Arial, sans-serif; padding-top: 50px; padding-bottom: 50px; overflow: hidden; }
-.page-title h1 { font-size: 36px; letter-spacing: 0.2em; margin-bottom: 0; text-transform: uppercase; font-family: "Montserrat", Helvetica, Arial, sans-serif; }
+.page-title h1 { font-size: 36px; letter-spacing: 0.2em; margin-bottom: 0; text-transform: uppercase; font-family: "Rajdhani","Montserrat", Helvetica, Arial, sans-serif; }
 @media only screen and (max-width: 767px) { .page-title h1 { font-size: 28px; } }
 .page-title h1 > i { position: relative; top: 3px; margin-right: 5px; }
 .page-title.page-title-1 { padding-top: 86px; padding-bottom: 86px; }
@@ -3267,7 +3267,7 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
     border: 1px solid #eaeaea;
     box-shadow: 1px 1px 1px #dadada;
     font-size: 18px;
-    padding: 30px 20px;
+    padding: 20px 20px;
     font-weight: 500;
 }
 
