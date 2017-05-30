@@ -13,17 +13,15 @@ $phone=$_POST['phone'];
 
 $lname=$_POST['lname'];
 
-//name  email  message subject
+$city=$_POST['city'];
+$state=$_POST['state'];
+$download=$_POST['download'];
 
-// echo $email;
-// echo $phone;
-// echo $name;
-// die;
-//$emailadmin="sanchit2411@gmail.com";
-// $emailadmin2="priyanka@scaledesk.com";
-// $emailsubadmin="lakhani@scaledesk.com";
+
+
 $emailadmin="info@myleap.in";
-$emailsubadmin="contact@myleap.in";
+//$emailsubadmin="contact@myleap.in";
+$emailsubadmin="nkscoder@gmail.com";
 // $namefrom=$_POST['pagefrom'];
 //$subject = $subject;
 $Usersubject="Thank You for contacting MyLeap.";
@@ -60,6 +58,22 @@ if ($lname){
   Email:-'.$email.'<br>
   Phone:-'.$phone.'<br>
   Message:-'.$Adminmessage.'
+  </div>
+</body>
+</html>';
+}
+
+if ($download){
+    $message="";
+    $message ='<html>
+<body>    
+<div id="abcd" style="text-align:justify;font-size:18px;">
+   Name:-'.$name.'<br>
+   Email:-'.$email.'<br>
+   Phone:-'.$phone.'<br>
+   City:-'.$city.'<br>
+   State:-'.$state.'<br>
+   Message:-'.$Adminmessage.'
   </div>
 </body>
 </html>';
@@ -136,24 +150,34 @@ $mail1->Body    = $message;
 
 
 
-
-
-
-if($mail1->send())
-{
-
-    if($mail->send()){
-        echo ('success');
-    }else{
-        echo ('success');
+if($download){
+    if ($mail1->send()) {
+       echo('download');
+//        echo '
+//<a href="http://localhost/3dprint/PHPMailer/Lesson-Plan- Cell-Phone-Stand.pdf" download="http://localhost/3dprint/PHPMailer/Lesson-Plan- Cell-Phone-Stand.pdf"></a>';
+    } else {
+        echo('error');
     }
 
-}else{
 
-    // echo $mail1->ErrorInfo;
+}
 
-    header( "location: /3dprint/");
+else {
+    if ($mail1->send()) {
+
+        if ($mail->send()) {
+            echo('success');
+        } else {
+            echo('success');
+        }
+
+    } else {
+
+        // echo $mail1->ErrorInfo;
+
+        header("location: /3dprint/");
 
 
+    }
 
 }

@@ -708,7 +708,37 @@ var Okno = {
                                 if (data != "success") {
                                     response = 'error';
                                     showNotification('error',msgError);
-                                } else {
+                                }
+                                if(data == "download"){
+
+                                    // window.location.href = 'http://localhost/3dprint/Lesson-Plan- Cell-Phone-Stand.pdf';
+                                    // setTimeout('window.location = "", 5000'   );
+                                    // setTimeout(function () { window.location = 'http://localhost/3dprint/Lesson-Plan- Cell-Phone-Stand.pdf'; }, 5000);
+                                    // var url1='http://localhost/3dprint/Lesson-Plan-Cell-Phone-Stand.pdf';
+                                    // window.open(url1, 'Download');
+
+                                       var fileUrl ="http://localhost/3dprint/Lesson-Plan-Cell-Phone-Stand.pdf";
+                                       var fileName ="Lesson Plan Cell Phone Stand"
+                                        var hyperlink = document.createElement('a');
+                                        hyperlink.href = fileUrl;
+                                        hyperlink.target = '_blank';
+                                        hyperlink.download = fileName || fileUrl;
+
+                                        var mouseEvent = new MouseEvent('click', {
+                                            view: window,
+                                            bubbles: true,
+                                            cancelable: true
+                                        });
+
+                                        hyperlink.dispatchEvent(mouseEvent);
+                                        (window.URL || window.webkitURL).revokeObjectURL(hyperlink.href);
+
+                                    // window.location.href='';
+
+                                         response = 'success';
+                                    showNotification('success',msgSuccess);
+                                }
+                                else {
                                     response = 'success';
                                     showNotification('success',msgSuccess);
                                 }

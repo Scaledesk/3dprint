@@ -258,7 +258,7 @@
         <div class="row h-150 mb-20 bg-grey text-center p-20 animated fadeInUp">
             <div class="col-md-12 ">
          <h5 class="text-center ">   Get the Free Lesson Plan on 3D Printing </h5> 
-           <a class="btn btn-primary"> Download Now</a>
+           <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalBasicDownload" > Download Now</a>
             </div>
         </div>
         
@@ -457,6 +457,68 @@ What you decide will depend on the age level and ability of your class. The poin
 
 </div>
 <!-- Content / End -->
+
+<!-- Modal / Basic -->
+<div class="modal fade" id="modalBasicDownload" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header pb-5">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="ti-close"></i></button>
+				<h4 class="modal-title" id="myModalLabel"><h3 class="mb-40">Download file !</h3></h4>
+			</div>
+
+
+			<!--form-->
+			<!--Name-->
+			<!--email-->
+			<!--Phone Number-->
+			<!--City-->
+			<!--State / Country-->
+
+			<div class="modal-footer">
+				<div class="col-md-12 content">
+					<!--<h3 class="mb-40">Send Us a message!</h3>-->
+					<form class="contact-form validate-form" id="contact-form" method="POST" data-message-error="Opps... Something went wrong - please try again later" data-message-success="Thank you form your message! We will answer within 24 hours." novalidate="novalidate">
+						<div class="row">
+							<div class="form-group col-sm-6">
+								<input name="name" id="name" type="text" class="form-control" placeholder="Name" required="" aria-required="true">
+							</div>
+							<div class="form-group col-sm-6">
+								<input name="email" id="email" type="email" class="form-control" placeholder="E-mail address" required="" aria-required="true">
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group col-sm-6">
+								<input name="phone" id="phone" type="tel" class="form-control" placeholder="Phone Number" required="" aria-required="true">
+							</div>
+							<div class="form-group col-sm-6">
+								<input name="city" id="city" type="text" class="form-control" placeholder="City" required="" aria-required="true">
+							</div>
+							<div class="form-group col-sm-6">
+								<input name="state" id="state" type="text" class="form-control" placeholder="State" required="" aria-required="true">
+								<input name="download" id="download" type="hidden" value="download">
+							</div>
+						</div>
+						<div class="form-group">
+							<textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Message" required="" aria-required="true"></textarea>
+						</div>
+						<div class="row">
+							<div class="col-md-4 col-sm-6">
+								<input name="subject"  type="hidden" value="3D Lesson Plans">
+								<button type="submit" class="btn btn-filled btn-submit btn-block"><span>Send it <i class="i-after ti-arrow-right"></i></span></button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+			</div>
+
+
+
+		</div>
+	</div>
+</div>
+
 
 <!-- Modal / Basic -->
 <div class="modal fade" id="modalBasic" role="dialog">
