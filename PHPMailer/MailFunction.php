@@ -20,8 +20,8 @@ $download=$_POST['download'];
 
 
 $emailadmin="info@myleap.in";
-//$emailsubadmin="contact@myleap.in";
-$emailsubadmin="nkscoder@gmail.com";
+$emailsubadmin="contact@myleap.in";
+//$emailsubadmin="nkscoder@gmail.com";
 // $namefrom=$_POST['pagefrom'];
 //$subject = $subject;
 $Usersubject="Thank You for contacting MyLeap.";
