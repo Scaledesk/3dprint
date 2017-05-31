@@ -717,7 +717,7 @@ var Okno = {
                                     // var url1='http://localhost/3dprint/Lesson-Plan-Cell-Phone-Stand.pdf';
                                     // window.open(url1, 'Download');
 
-                                       var fileUrl ="http://myleap.in/3dprint/Lesson-Plan-Cell-Phone-Stand.pdf";
+                                       var fileUrl ="http://myleap.in/Lesson-Plan-Cell-Phone-Stand.pdf";
                                        var fileName ="Lesson Plan Cell Phone Stand"
                                         var hyperlink = document.createElement('a');
                                         hyperlink.href = fileUrl;
