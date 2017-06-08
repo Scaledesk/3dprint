@@ -831,7 +831,7 @@ $(document).ready(function () {
     $("#state").change(function () {
         var val = $(this).val();
         if (val == "AndhraPradesh") {
-            $("#city").html("<option value='Hyderabad'>Hyderabad</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Hyderabad'>Hyderabad</option>" +
                 "<option value='Visakhapatnam'>Visakhapatnam</option>" +
                 "<option value='Vijayawada'>Vijayawada</option>" +
                 "<option value='Warangal'>Warangal</option>" +
@@ -844,7 +844,7 @@ $(document).ready(function () {
                 "<option value='Chittoor'>Chittoor</option>" +
                 "<option value='Other'>Other</option>" );
         } else if (val == "ArunachalPradesh") {
-            $("#city").html("<option value='Tawang'>Tawang</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Tawang'>Tawang</option>" +
                 "<option value='Itanagar'>Itanagar</option>" +
                 "<option value='Ziro'>Ziro</option>" +
                 "<option value='Bomdila'>Bomdila</option>" +
@@ -859,28 +859,28 @@ $(document).ready(function () {
                 "<option value='Tinsukia'>Tinsukia</option>" +
                 "<option value='Other'>Other</option>");
         }else if (val == "Bihar") {
-            $("#city").html("<option value='Bihar Sharif'>Bihar Sharif</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Bihar Sharif'>Bihar Sharif</option>" +
                 "<option value='Gaya'>Gaya</option>" +
                 "<option value='Patna'>Patna</option>" +
                 "<option value='Darbhangā'>Darbhangā</option>" +
                 "<option value='Munger'>Munger</option>" +
                 "<option value='Other'>Other</option>");
             }else if (val == "Chhattisgarh") {
-            $("#city").html("<option value='Raipur'>Raipur</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Raipur'>Raipur</option>" +
                 "<option value='Bilaspur'>Bilaspur</option>" +
                 "<option value='Bastar'>Bastar</option>" +
                 "<option value='Jashpur'>Jashpur</option>" +
                 "<option value='Durg'>Durg</option>" +
                 "<option value='Other'>Other</option>");
              }else if (val == "Goa") {
-            $("#city").html("<option value='Panaji'>Panaji</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Panaji'>Panaji</option>" +
                 "<option value='Madgaon'>Madgaon</option>" +
                 "<option value='Mormugao'>Mormugao</option>" +
                 "<option value='Mapuca'>Mapuca</option>" +
                 "<option value='Ponda'>Ponda</option>" +
                 "<option value='Other'>Other</option>");
             }else if (val == "Gujarat") {
-            $("#city").html("<option value='Ahmedabad'>Ahmedabad</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Ahmedabad'>Ahmedabad</option>" +
                 "<option value='Vadodara'>Vadodara</option>" +
                 "<option value='Kandla'>Kandla</option>" +
                 "<option value='Surat'>Surat</option>" +
@@ -888,67 +888,68 @@ $(document).ready(function () {
                 "<option value='Veraval'>Veraval</option>" +
                 "<option value='Other'>Other</option>");
             }else if (val == "Haryana") {
-            $("#city").html("<option value='Jhajjar'>Jhajjar</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Jhajjar'>Jhajjar</option>" +
                 "<option value='Panchkula'>Panchkula</option>" +
                 "<option value='Faridabad'>Faridabad</option>" +
                 "<option value='Ambala'>Ambala</option>" +
                 "<option value='Rohtak'>Rohtak</option>" +
                 "<option value='Karnal'>Karnal</option>" +
+                            "<option value='Gurgaon'>Gurgaon</option>" +
                 "<option value='Other'>Other</option>");
             }else if (val == "HimachalPradesh") {
-            $("#city").html("<option value='Shimla'>Shimla</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Shimla'>Shimla</option>" +
                 "<option value='Kufri'>Kufri</option>" +
                 "<option value='Kullu Manali'>Kullu Manali</option>" +
                 "<option value='Other'>Other</option>");
              }else if (val == "JammuandKashmir") {
-            $("#city").html("<option value='Jammu'>Jammu</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Jammu'>Jammu</option>" +
                 "<option value='Srinagar'>Srinagar</option>" +
                 "<option value='Leh Ladakh'>Leh Ladakh</option>" +
                 "<option value='Other'>Other</option>");
             }else if (val == "Jharkhand") {
-            $("#city").html("<option value='Dhanbad'>Dhanbad</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Dhanbad'>Dhanbad</option>" +
                 "<option value='Jamshedpur'>Jamshedpur</option>" +
                 "<option value='Deoghar'>Deoghar</option>" +
                 "<option value='Other'>Other</option>");
             }else if (val == "Karnataka") {
-            $("#city").html("<option value='Bengaluru'>Bengaluru</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Bengaluru'>Bengaluru</option>" +
                 "<option value='Mysore'>Mysore</option>" +
                 "<option value='Belgaum'>Belgaum</option>" +
                 "<option value='Other'>Other</option>");
         }else if (val == "Kerala") {
-            $("#city").html("<option value='Thiruvananthapuram'>Thiruvananthapuram</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Thiruvananthapuram'>Thiruvananthapuram</option>" +
                 "<option value='Kochi'>Kochi</option>" +
                 "<option value='Kozhikode'>Kozhikode</option>" +
                 "<option value='Other'>Other</option>");
             }else if (val == "MadhyaPradesh") {
-            $("#city").html("<option value='Bhopal'>Bhopal</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Bhopal'>Bhopal</option>" +
                 "<option value='Indore'>Indore</option>" +
                 "<option value='Gwalior'>Gwalior</option>" +
                 "<option value='Khajuraho'>Khajuraho</option>"  +
                 "<option value='Other'>Other</option>");
             }else if (val == "Maharashtra") {
-            $("#city").html("<option value='Churachandpur'>Aurangabad</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Churachandpur'>Aurangabad</option>" +
                 "<option value='Mumbai'>Mumbai</option>" +
                 "<option value='Shirdi'>Shirdi</option>" +
                 "<option value='Pune'>Pune</option>"  +
                 "<option value='Other'>Other</option>");
         }else if (val == "Manipur") {
-            $("#city").html("<option value='Churachandpur'>Churachandpur</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Churachandpur'>Churachandpur</option>" +
                 "<option value='Imphal'>Imphal</option>" +
                 "<option value='Kakching'>Kakching</option>" +
                 "<option value='Other'>Other</option>");
            }else if (val == "Meghalaya") {
-            $("#city").html("<option value='Cherrapunji'>Cherrapunji</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Cherrapunji'>Cherrapunji</option>" +
                 "<option value='Mairang'>Mairang</option>" +
                 "<option value='Mankachar'>Mankachar</option>" +
                 "<option value='Other'>Other</option>");
             }else if (val == "Mizoram") {
-            $("#city").html("<option value='Aizawl'>Aizawl</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Aizawl'>Aizawl</option>" +
                 "<option value='Darlawn'>Darlawn</option>" +
                 "<option value='Khawhai'>Khawhai</option>" +
                 "<option value='Other'>Other</option>");
           }else if (val == "Nagaland") {
-            $("#city").html("<option value='Dimapur'>Dimapur</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Dimapur'>Dimapur</option>" +
                 "<option value='Kohima'>Kohima</option>" +
                 "<option value='Mokokchung'>Mokokchung</option>" +
                 "<option value='Other'>Other</option>");
@@ -958,46 +959,54 @@ $(document).ready(function () {
                 "<option value='Jeypore'>Jeypore</option>" +
                 "<option value='Other'>Other</option>");
         }else if (val == "Punjab") {
-            $("#city").html("<option value='Jalandhar'>Jalandhar</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Jalandhar'>Jalandhar</option>" +
                 "<option value='Ludhiana'>Ludhiana</option>" +
-                "<option value='Bathinda'>Bathinda</option>" +
+                "<option value='Bathinda'>Bathinda</option>" + "<option value='Amritsar'>Amritsar</option>" +
                 "<option value='Other'>Other</option>");
            }else if (val == "Rajasthan") {
-            $("#city").html("<option value='Jaipur'>Jaipur</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Jaipur'>Jaipur</option>" +
                 "<option value='Ajmer'>Ajmer</option>" +
                 "<option value='Bharatpur'>Bharatpur</option>" +
                 "<option value='Bikaner'>Bikaner</option>" +
                 "<option value='Udaipur'>Udaipur</option>"  +
                 "<option value='Other'>Other</option>"
             );
+     }else if (val == "Delhi") {
+            $("#city").html("<option value=''>Select Region</option>" + "<option value='North_Delhi'>North Delhi</option>" +
+                "<option value='East_Delhi'>East Delhi</option>" +
+                "<option value='West_Delhi'>West Delhi</option>" +
+                "<option value='Central_Delhi'>Central Delhi</option>" +
+                "<option value='South Delhi'>South Delhi</option>"  +
+                "<option value='Other'>Other</option>"
+            );
      }else if (val == "Sikkim") {
-            $("#city").html("<option value='Gangtok'>Gangtok</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Gangtok'>Gangtok</option>" +
                 "<option value='Lachung'>Lachung</option>" +
                 "<option value='Namchi'>Namchi</option>" +
                 "<option value='Ravangla'>Ravangla</option>" +
                 "<option value='Other'>Other</option>");
        }else if (val == "TamilNadu") {
-            $("#city").html("<option value='Hyderabad'>Chennai</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Hyderabad'>Chennai</option>" +
                 "<option value='Coimbatore'>Coimbatore</option>" +
                 "<option value='Madurai'>Madurai</option>" +
                 "<option value='Tiruchirappalli'>Tiruchirappalli</option>" +
                 "<option value='Other'>Other</option>");
        }else if (val == "Telangana") {
-            $("#city").html("<option value='Hyderabad'>Hyderabad</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Hyderabad'>Hyderabad</option>" +
                 "<option value='Warangal'>Warangal</option>" +
                 "<option value='Nizamabad'>Nizamabad</option>" +
                 "<option value='Karimnagar'>Karimnagar</option>" +
                 "<option value='Khammam'>Khammam</option>" +
                 "<option value='Other'>Other</option>");
         }else if (val == "Tripura") {
-            $("#city").html("<option value='Agartala'>Agartala</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Agartala'>Agartala</option>" +
                 "<option value='Kamalasagar'>Kamalasagar</option>" +
                 "<option value='Belonia'>Belonia</option>" +
                 "<option value='Kailashahar'>Kailashahar</option>" +
                 "<option value='Sabroom'>Sabroom</option>" +
                 "<option value='Other'>Other</option>");
               }else if (val == "UttarPradesh") {
-            $("#city").html("<option value='Kanpur'>Kanpur</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value=''>Select City</option>" + "<option value='Kanpur'>Kanpur</option>" +
                 "<option value='Lucknow'>Lucknow</option>" +
                 "<option value='Vijayawada'>Vijayawada</option>" +
                 "<option value='Ghaziabad'>Ghaziabad</option>" +
@@ -1022,7 +1031,7 @@ $(document).ready(function () {
                 "<option value='Mirzapur'>Mirzapur</option>" +
                 "<option value='Other'>Other</option>");
         }else if (val == "Uttarakhand") {
-            $("#city").html("<option value='Dehradun'>Dehradun</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Dehradun'>Dehradun</option>" +
                 "<option value='Haridwar'>Haridwar</option>" +
                 "<option value='Roorkee'>Roorkee</option>" +
                 "<option value='Haldwani'>Haldwani</option>" +
@@ -1032,7 +1041,7 @@ $(document).ready(function () {
                 "<option value='Almora'>Almora</option>" +
                 "<option value='Other'>Other</option>");
         }else if (val == "WestBengal") {
-            $("#city").html("<option value='Kolkata'>Kolkata</option>" +
+            $("#city").html("<option value=''>Select City</option>" + "<option value='Kolkata'>Kolkata</option>" +
                 "<option value='Darjeeling'>Darjeeling</option>" +
                 "<option value='Durgapur'>Durgapur</option>" +
                 "<option value='Other'>Other</option>");
